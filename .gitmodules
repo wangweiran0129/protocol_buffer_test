@@ -1,0 +1,3 @@
+[submodule "pbzlib-java"]
+	path = pbzlib-java
+	url = https://github.com/fabgeyer/pbzlib-java.git
