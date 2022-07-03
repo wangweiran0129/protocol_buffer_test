@@ -35,7 +35,7 @@ In his README.md, he claimed that this library is used for simplifying the seria
 5. Check whether the protocol buffer has been installed successfully by typing `protoc --version` in the terminal.
 
 ### Coding Examples:
-In this repo, you will find one proto file which defines the data structure of the datasets, `addressbook.proto`, and two java codes `AddPerson.java` which writes the data, and `ListPeople.java` which reads the data. All of these three codes are given by [Protocol Buffer Basics: Java Tutorial](https://developers.google.com/protocol-buffers/docs/javatutorial). If `protoc` has been successfully installed on your computer, you will be able to run the compiler by the following command: 
+In this repo, you will find one proto file which defines the data structure of the datasets, [`addressbook.proto`](https://github.com/wangweiran0129/protocol_buffer_test/blob/master/address_book/addressbook.proto), and two java codes [`AddPerson.java`](https://github.com/wangweiran0129/protocol_buffer_test/blob/master/address_book/AddPerson.java) which writes the data, and [`ListPeople.java`](https://github.com/wangweiran0129/protocol_buffer_test/blob/master/address_book/ListPeople.java) which reads the data. All of these three codes are given by [Protocol Buffer Basics: Java Tutorial](https://developers.google.com/protocol-buffers/docs/javatutorial). If `protoc` has been successfully installed on your computer, you will be able to run the compiler by the following command: 
 
 `$ protoc -I=$SRC_DIR --java_out=$DST_DIR $SRC_DIR/addressbook.proto`  
 
